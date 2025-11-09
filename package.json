@@ -1,0 +1,41 @@
+{
+    "name": "poll",
+    "version": "1.0.0",
+    "main": "server/index.ts",
+    "scripts": {
+        "dev": "ts-node-dev -r tsconfig-paths/register --files src/index.ts",
+        "start": "node dist/server.js",
+        "build": "rimraf dist && npx tsc && npx tsc-alias",
+        "lint": "eslint --ext .js,.ts .",
+        "lint-fix": "eslint . --fix"
+    },
+    "keywords": [
+        "Poll",
+        "Vote"
+    ],
+    "author": "Pallab Bharman",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@eslint/js": "^9.39.0",
+        "@types/express": "^5.0.5",
+        "eslint": "^9.39.0",
+        "eslint-config-prettier": "^10.1.8",
+        "globals": "^16.5.0",
+        "jiti": "^2.6.1",
+        "prettier": "3.6.2",
+        "rimraf": "^6.1.0",
+        "ts-node": "^10.9.2",
+        "ts-node-dev": "^2.0.0",
+        "tsc-alias": "^1.8.16",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.46.2"
+    },
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0",
+        "winston": "^3.18.3",
+        "winston-daily-rotate-file": "^5.0.0"
+    }
+}

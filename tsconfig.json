@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "rootDir": "src",
+        "esModuleInterop": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "baseUrl": "./src",
+        "paths": {
+            "configs/*": ["configs/*"],
+            "errors/*": ["errors/*"],
+            "middlewares/*": ["middlewares/*"],
+            "modules/*": ["modules/*"],
+            "routes/*": ["routes/*"],
+            "types/*": ["types/*"],
+            "utils/*": ["utils/*"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "prisma"]
+}
