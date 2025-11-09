@@ -1,0 +1,13 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+        "source.fixAll.tslint": "always",
+        "source.organizeImports": "always"
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    }
+}
