@@ -6,19 +6,9 @@
     "auditLog": "/Users/pallab/Documents/Pallab/poll/logs/success/.e8f027dede10eac595f0f04947d21f76a1ff843b-audit.json",
     "files": [
         {
-            "date": 1762151051503,
-            "name": "/Users/pallab/Documents/Pallab/poll/logs/success/success-2025-11-03-12.log",
-            "hash": "9a57de06726ce39436ba1a9c619802280ff46afe9246131a83a56adff35a3b3b"
-        },
-        {
-            "date": 1762668218998,
-            "name": "/Users/pallab/Documents/Pallab/poll/logs/success/success-2025-11-09-12.log",
-            "hash": "15df58ff9b59a48c5b157f87e302f28d76fc63ccb194ad4d7b328e2546043dcb"
-        },
-        {
-            "date": 1762672949158,
-            "name": "/Users/pallab/Documents/Pallab/poll/logs/success/success-2025-11-09-13.log",
-            "hash": "830987cfbe2bf0d5051fea10eec9c2c36bd3c522253412529150809bf3f4e703"
+            "date": 1762682764968,
+            "name": "/Users/pallab/Documents/Pallab/poll/logs/success/success-2025-11-09-16.log",
+            "hash": "3da3984f3aa49119e3fe1f0a3795b17c603fc2463fabab219ca9e9adbeb90f64"
         }
     ],
     "hashType": "sha256"
